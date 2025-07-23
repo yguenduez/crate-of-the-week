@@ -1,0 +1,6 @@
+[book]
+authors = ["Yasin Gündüz"]
+language = "en"
+multilingual = false
+src = "src"
+title = "crate-of-the-week"
