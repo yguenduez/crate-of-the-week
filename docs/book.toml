@@ -7,3 +7,4 @@ title = "crate-of-the-week"
 
 [output.html]
 number-chapters = false
+git-repository-url = "https://github.com/yguenduez/crate-of-the-week"
