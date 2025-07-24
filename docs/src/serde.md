@@ -6,8 +6,8 @@ Gives you a powerful way to serialize and deserialize data in Rust.
 
 ```rust
 #[derive(Serialize, Deserialize)]
-struct Hans{
-    is_boss:bool,
+struct Hans {
+    is_boss: bool,
     company: String,
 }
 ```
