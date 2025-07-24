@@ -1,4 +1,4 @@
-# Serde - 23th of July
+# Serde - 23rd of July
 
 `cargo add serde -F derive`
 
