@@ -78,7 +78,7 @@ You can run this example by running (from `reqwest-crate` directory)
 cargo run --bin with_json
 ```
 
-It should pirnt something like this:
+It should print something like this:
 
 ```text
 Pokemon { name: "bulbasaur", height: 7 }
