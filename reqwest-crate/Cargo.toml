@@ -1,0 +1,17 @@
+[package]
+name = "reqwest-crate"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "simple"
+path = "src/simple/main.rs"
+
+[[bin]]
+name = "with_json"
+path = "src/with_json/main.rs"
+
+[dependencies]
+reqwest = { version = "0.12.22", features = ["json"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.47.0", features = ["full"] }
