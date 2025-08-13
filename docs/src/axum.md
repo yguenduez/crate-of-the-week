@@ -1,12 +1,12 @@
 # Axum - 13th of August
 
-Axum is a web a powerfull, yet easy to use web framework for Rust, that is built on top of the Tokio runtime.
-It's quite modular. You can for example create middlewares.
+Axum is a powerfull, yet easy to use web framework for Rust, that is built on top of the Tokio runtime.
+It's quite modular. You can for example create middlewares with another great crate called `tower`.
 
-What you need usually:
+What you usually need:
 
 - The async runtime: `cargo add tokio -F full`
-- Json: `cargo add serde -F derive`
+- JSON: `cargo add serde -F derive`
 
 And axum itself: `cargo add axum`
 
@@ -31,7 +31,7 @@ async fn main() {
 Here we have two endpoints:
 
 - `/`: This endpoint to the root URL ("/"). It is mapped to the `root` function.
-- `/users`: This endpoint is used to handle HTTP POST requests to the "/users" URL. It is mapped to the `create_user` function, which creates a new user based on the provided JSON data.
+- `/users`: This endpoint is used to handle HTTP POST requests to the "/users" URL. It is mapped to the `create_user` function, which accepts JSON as input (will be extracted) and creates a JSON response from it.
 
 The callback functions themselves are responsible for handling the incoming requests, where e.g. `Path` variables, `Query` variables or `Json` can be extracted. Those functions are responsible for generating the appropriate responses, that can be turned into a HTTP response.
 
@@ -58,7 +58,7 @@ struct User {
 }
 
 async fn create_user(
-    Json(payload): Json<CreateUser>, // Json-Extractor
+    Json(payload): Json<CreateUser>, // JSON-Extractor
 ) -> (StatusCode, Json<User>) {
     let user = User {
         id: 1337,
