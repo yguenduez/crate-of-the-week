@@ -84,4 +84,4 @@ copy_artifacts:
 ## More
 
 You can not only write shell recipes. Just supports shell/powershell commands. You can write recipes in [different languages](https://just.systems/man/en/shebang-recipes.html):
-Just have a look at the [official documentation](https://https://just.systems/).
+Just have a look at the [official documentation](https://just.systems/).
