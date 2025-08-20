@@ -4,3 +4,4 @@
 - [Reqwest](./reqwest.md)
 - [Clap](./clap.md)
 - [Axum](./axum.md)
+- [Just](./just.md)
