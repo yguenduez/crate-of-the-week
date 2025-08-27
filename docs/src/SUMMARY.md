@@ -5,3 +5,4 @@
 - [Clap](./clap.md)
 - [Axum](./axum.md)
 - [Just](./just.md)
+- [Thiserror](./thiserror.md)
