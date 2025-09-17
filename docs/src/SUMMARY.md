@@ -6,3 +6,4 @@
 - [Axum](./axum.md)
 - [Just](./just.md)
 - [Thiserror](./thiserror.md)
+- [Anyhow](./anyhow.md)

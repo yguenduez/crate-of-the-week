@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Cluster A",
+    "nodes": ["node1", "node2", "node3"]
+  },
+  {
+    "name": "Cluster B",
+    "nodes": ["node4", "node5", "node6"]
+  }
+]
